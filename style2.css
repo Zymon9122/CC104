@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body {
+    background: linear-gradient(red, darkred, black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.profile_information{
+   background: darkred;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    border-bottom: 30px;
+}
+.profile_information img{
+    margin-top: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(252, 248, 248);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.align_all_horizontal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h1, h3 {
+    margin: 5px 0;
+}
+
+.scrollable-table {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.container .align-vertical {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 45px;
+}
+
+
+
+button {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 45px;
+    width: 130px;
+    align-items: center;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 10px 45px;
+    text-transform: uppercase;
+}
+
+.clear-history {
+    margin-top: 20px;
+}
+
+.align-vertical button, .clear-history button, center button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.align-vertical button:disabled, .clear-history button:disabled {
+    background-color: #808080;
+    cursor: not-allowed;
+}
+
+
+
+
